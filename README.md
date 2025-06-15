@@ -332,29 +332,6 @@ This tool is provided for:
 4. **Memory Spray Integration**: Use emoji pattern for heap spray attacks
 5. **Alternative Timing Attacks**: Explore other parser race conditions
 
-## Testing Tools Included
-
-### 1. `analyze_race_condition.py`
-Comprehensive timing analysis tool that:
-- Tests various Unicode characters (crab, ASCII, emojis)
-- Finds optimal character counts for triggering race conditions
-- Generates timing charts and memory pattern analysis
-- Outputs detailed JSON results
-
-### 2. `test_environmental_factors.py`
-Environmental impact simulator that:
-- Models CPU load effects on parsing speed
-- Simulates memory pressure scenarios
-- Tests different OneNote versions
-- Calculates success rates under various conditions
-
-### 3. `generate_onenote_binary.py`
-Creates malicious OneNote files with:
-- Embedded SVG containing 24,000 crab emojis
-- Base64-encoded PowerShell payloads
-- RTLO filename obfuscation
-- Binary format using FSSHTTP-B protocol
-
 ## Acknowledgments
 
 - **Jonathan Blow** for the original crab emoji X post that crashed my iPhone and sparked this research
