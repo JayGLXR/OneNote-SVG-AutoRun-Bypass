@@ -6,7 +6,6 @@ This repository documents a critical security vulnerability in Microsoft OneNote
 
 **Severity**: Critical  
 **Affected Versions**: OneNote 2016, 2019, 2021, and Office 365 (with varying success rates)  
-**Discovery**: Crab17  
 **Exploit Success Rate**: 80-90% on vulnerable versions
 
 ## The Origin of the Crab Emoji Exploit 🦀
